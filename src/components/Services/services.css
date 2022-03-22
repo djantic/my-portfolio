@@ -1,0 +1,40 @@
+.services__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--color-bg-variant);
+  border-radius: 0 0 2rem 2rem;
+  border: 1px solid var(--color-primary);
+  width: fit-content;
+  transition: var(--transition);
+  cursor: default;
+  margin: auto;
+}
+.services__container:hover {
+  background: transparent;
+  border-color: var(--color-primary-variant);
+}
+.service__head {
+  background: var(--color-primary);
+  padding: 2rem 2rem 2rem 2rem;
+  border-radius: 0 0 2rem 2rem;
+  box-shadow: 0 2rem 1rem rgba(0, 0, 0, 0.17);
+}
+.service__head h3 {
+    text-align: center;
+    color: var(--color-bg);
+}
+
+.service__list{
+    padding: 2rem;
+}
+.service__list li{
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 0.8rem;
+}
+.service__list-icon{
+    color: var(--color-primary);
+    margin-top: 5px;
+    font-size: 1.2rem;
+}

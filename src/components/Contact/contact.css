@@ -1,0 +1,31 @@
+.contact__options {
+  width: 70%;
+  margin: auto;
+}
+.contact__options form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+input,
+textarea {
+  width: 100%;
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  background: transparent;
+  border: 2px solid var(--color-primary-variant);
+  resize: none;
+  color: var(--color-white);
+}
+input::placeholder,
+textarea::placeholder {
+  color: var(--color-light);
+}
+input:focus::placeholder,
+textarea:focus::placeholder {
+  color: transparent;
+}
+.contact__options button{
+    margin: auto;
+}
